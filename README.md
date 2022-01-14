@@ -15,3 +15,6 @@ The more bags you collect, the higher your score will get, but monsters will als
 ### Technical Challenges
 - Since the game was developed in Visual Basic, and the executable is .exe, porting the game to mac was a challenge. 
 I ended up using `WineBottler` to convert .exe files into .app files, however it wasn't perfect. 
+Some pixel offsets were upscaled, so to combat with that I introduced an option in the Setting menu,
+to specify if the game is running on Windows or Mac. 
+
